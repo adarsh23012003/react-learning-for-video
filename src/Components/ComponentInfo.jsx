@@ -2,6 +2,7 @@ import React from 'react'
 import FunctionalComponent from './FunctionalComponent'
 import FunctionalComponentWithProps from './FunctionalComponentWithProps';
 import ClassComponent from './ClassComponent'
+import ClassComponentWithProps from './ClassComponentWithProps';
 
 function ComponentInfo() {
   return (
@@ -11,10 +12,11 @@ function ComponentInfo() {
       <h5>1. Functional Component</h5>
       <FunctionalComponent />
       <FunctionalComponentWithProps name='Functional Component With Props'>
-      <p>This is a props component with (props.children)</p>
+        <p>This is a props component with (props.children)</p>
       </FunctionalComponentWithProps>
       <h5>2. Class Component</h5>
       <ClassComponent />
+      <ClassComponentWithProps name='Adarsh'/>
     </>
   );
 }
