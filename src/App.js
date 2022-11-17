@@ -1,7 +1,9 @@
+import Introduction from "./Components/Introduction";
 function App() {
   return (
     <div className="App">
-    <h1>Welcome</h1>
+    <Introduction />
+    <hr />
     </div>
   );
 }
