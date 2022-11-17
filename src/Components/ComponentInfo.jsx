@@ -3,6 +3,7 @@ import FunctionalComponent from './FunctionalComponent'
 import FunctionalComponentWithProps from './FunctionalComponentWithProps';
 import ClassComponent from './ClassComponent'
 import ClassComponentWithProps from './ClassComponentWithProps';
+import ClassComponentState from './ClassComponentState';
 
 function ComponentInfo() {
   return (
@@ -17,6 +18,7 @@ function ComponentInfo() {
       <h5>2. Class Component</h5>
       <ClassComponent />
       <ClassComponentWithProps name='Adarsh'/>
+      <ClassComponentState/>
     </>
   );
 }
